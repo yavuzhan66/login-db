@@ -6,5 +6,16 @@
     "hbs": "^4.2.0",
     "mysql": "^2.18.1",
     "nodemon": "^3.0.1"
-  }
+  },
+  "name": "login-db",
+  "description": "npm i express mysql dotenv hbs bcryptjs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
